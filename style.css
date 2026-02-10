@@ -13,8 +13,7 @@ body{
 
 .main-body{
     background-color: white;
-    min-width: 500px;
-    width:auto;
+    width: min(500px, 92vw);
     min-height: 300px;
     height: auto;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
@@ -39,6 +38,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .inp input{
